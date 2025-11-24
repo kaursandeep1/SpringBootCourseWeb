@@ -56,7 +56,7 @@ Architecture:
 
 Installation & Running
 1. Clone the repository
-   git clone https://github.com/jyoti786J/SpringBootCourseWeb.git
+   git clone https://github.com/kaursandeep1/SpringBootCourseWeb.git
    cd SpringBootCourseWeb
 
 2. ./gradlew bootRun
