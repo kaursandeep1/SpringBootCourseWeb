@@ -71,23 +71,22 @@ Database Configuration
 - spring.datasource.password=
 
 👤 Default Accounts
--Username	Password	Role	Access Level
--admin	admin123	ADMIN	Full system access
--mary	marypw	TEACHER	Lecture management
--john	johnpw	STUDENT	Student features
--jojo	jojopw	STUDENT	Student features
+-Username: admin	
+-Password: admin123	
+-Role: ADMIN	Full system access
+-Access Level: Full system access
 
 📁 Project Structure
--src/main/java/hkmu/wadd/
--├── controller/          # Web controllers & routing
--├── service/            # Business logic layer  
--├── dao/                # Database operations (Data Access Objects)
--├── model/              # Data models (User, Course, Poll, etc.)
--├── dto/                # Data Transfer Objects
--├── config/             # Application configuration
--├── validator/          # Input validation
--├── exception/          # Custom exception handling
--└── view/               # View models
+- src/main/java/hkmu/wadd/
+- ├── controller/          # Web controllers & routing
+- ├── service/            # Business logic layer  
+- ├── dao/                # Database operations (Data Access Objects)
+- ├── model/              # Data models (User, Course, Poll, etc.)
+- ├── dto/                # Data Transfer Objects
+- ├── config/             # Application configuration
+- ├── validator/          # Input validation
+- ├── exception/          # Custom exception handling
+- └── view/               # View models
 
 -src/main/resources/
 -├── static/css/         # CSS stylesheets
