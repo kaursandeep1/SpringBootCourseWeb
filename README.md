@@ -71,10 +71,10 @@ Database Configuration
 - spring.datasource.password=
 
 👤 Default Accounts
--Username: admin	
--Password: admin123	
--Role: ADMIN	Full system access
--Access Level: Full system access
+- Username: admin	
+- Password: admin123	
+- Role: ADMIN	Full system access
+- Access Level: Full system access
 
 📁 Project Structure
 - src/main/java/hkmu/wadd/
@@ -88,17 +88,17 @@ Database Configuration
 - ├── exception/          # Custom exception handling
 - └── view/               # View models
 
--src/main/resources/
--├── static/css/         # CSS stylesheets
--├── i18n/               # Multi-language support (English & Chinese)
--├── sql/                # Database scripts
--└── application.properties 
+- src/main/resources/
+- ├── static/css/         # CSS stylesheets
+- ├── i18n/               # Multi-language support (English & Chinese)
+- ├── sql/                # Database scripts
+- └── application.properties 
 
--src/main/webapp/WEB-INF/jsp/
--├── fragments/          # JSP template fragments
--└── *.jsp              # JSP view files
+- src/main/webapp/WEB-INF/jsp/
+- ├── fragments/          # JSP template fragments
+- └── *.jsp              # JSP view files
 
--src/main/js/            # JavaScript files
+- src/main/js/            # JavaScript files
 
 
 
